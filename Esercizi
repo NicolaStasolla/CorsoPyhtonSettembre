@@ -1,0 +1,103 @@
+#Esercizio 1
+
+# Dichiarare una variabile "nome" e assegnargli il tuo nome
+nome = "Nicola"
+print(nome)
+
+#Esercizio 2
+# Dichiarare una variabile "eta" e assegnargli la tua età
+eta = 23
+print(eta)
+
+#Esercizio 3
+# Dichiarare una variabile "pi" e assegnargli il valore di pi greco
+pi = 3.14159
+print(pi)
+
+#Esercizio 4
+# Creare una variabile "lunghezza" e assegnargli un valore
+lunghezza = 10
+print(lunghezza)
+# Riassegnare la variabile a 15
+lunghezza = 15
+print(lunghezza)
+
+#Esercizio 5
+# Creare una variabile "nome_completo" e assegnargli una stringa contenente il tuo nome e cognome
+nome_completo = "Nicola Stasolla"
+print(nome_completo)
+# Supponiamo che "eta" sia già stata dichiarata come nell'esercizio 2
+eta_futura = eta + 10  # Calcola l'età che avrai tra 10 anni
+print(eta_futura)
+
+#Esercizio 6
+# Creare variabili per nome, cognome e anno di nascita
+nome = "Nicola"
+cognome = "Stasolla"
+anno_di_nascita = 2001
+print(nome, cognome, anno_di_nascita)
+
+#Esercizio 7
+# Sovrascrivere le variabili
+nome = "Nicola"
+cognome = "Stasolla"
+anno_di_nascita = 2001
+print(nome, cognome, anno_di_nascita)
+
+#Esercizio 8
+# Creare una variabile "eta_attuale" calcolando l'età in base all'anno corrente
+anno_corrente = 2024
+anno_di_nascita = 2001
+eta_attuale = anno_corrente - anno_di_nascita
+print(eta_attuale)
+
+
+#Esercizi Operatori
+
+#Esercizio 1
+# Dichiarare due variabili "numero1" e "numero2" e assegnargli due numeri interi
+numero1 = 5
+numero2 = 3
+# Eseguire l'addizione e assegnare il risultato ad una nuova variabile "somma"
+somma = numero1 + numero2
+print(somma)
+
+#Esercizio 2
+# Eseguire la sottrazione e assegnare il risultato ad una nuova variabile "differenza"
+differenza = numero1 - numero2
+print(differenza)
+
+#Esercizio 3
+# Eseguire la moltiplicazione e assegnare il risultato ad una nuova variabile "prodotto"
+prodotto = numero1 * numero2
+print(prodotto)
+
+#Esercizio 4
+# Eseguire la divisione e assegnare il risultato ad una nuova variabile "quoziente"
+quoziente = numero1 / numero2
+print(quoziente)
+
+#Esercizio 5
+# Eseguire l'operazione di modulo tra le due variabili e assegnare il risultato ad una nuova variabile "resto"
+resto = numero1 % numero2
+print(resto)
+
+#Esercizio 6
+# Incrementare "numero1" di 1 e decrementare "numero2" di 3
+numero1 += 1
+numero2 -= 3
+print("1:", numero1)
+print("3:", numero2)
+
+#Esercizio 7
+# Moltiplicare "numero1" per se stesso + 5, e sommarlo a "numero2" elevato alla seconda
+risultato = (numero1 * numero1) + 5 + (numero2 ** 2)
+print(risultato)
+
+#Esercizio 8
+# Trovare l'operazione per portare "numero1" a valere 1 senza riassegnarlo direttamente ad 1 e sottraendolo a se stesso
+numero1 = (numero1 - numero1) + 1
+print(numero1)
+
+
+
